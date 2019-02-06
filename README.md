@@ -6,9 +6,7 @@ This is an amazing image slider for the Android platform. I decided to open sour
  
 You can easily load images from an internet URL, drawable, or file. And there are many kinds of amazing animations you can choose. :-D
 
-## 1.Adding Gradle dependencies
-
-
+## Step-1:Add gradle dependencies
 
 dependencies {
 
@@ -22,11 +20,9 @@ dependencies {
     
 }
 
-# Step-2
+# Step-2 Add the Slider to your layout:
 
-Add the Slider to your layout:
-
-
+ 
 
 <com.daimajia.slider.library.SliderLayout
 
@@ -38,9 +34,7 @@ Add the Slider to your layout:
         
 />
 
-# Step-3
-
-Write Correspondin Java code in Activity class
+# Step-3 Write Correspondin Java code in Activity class
 
 SliderLayout mDemoSlider;
 
