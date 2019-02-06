@@ -5,9 +5,10 @@
 This is an amazing image slider for the Android platform. I decided to open source this because there is really not an attractive, convenient slider widget in Android.
  
 You can easily load images from an internet URL, drawable, or file. And there are many kinds of amazing animations you can choose. :-D
- 
-##Step 1
-Gradle
+
+## 1.Adding Gradle dependencies
+
+
 
 dependencies {
 
@@ -21,7 +22,8 @@ dependencies {
     
 }
 
-##Step 2
+# Step-2
+
 Add the Slider to your layout:
 
 
@@ -36,7 +38,8 @@ Add the Slider to your layout:
         
 />
 
-##Step 3
+# Step-3
+
 Write Correspondin Java code in Activity class
 
 SliderLayout mDemoSlider;
@@ -72,5 +75,4 @@ in onCreate() method instantiate it
         mDemoSlider.setPresetIndicator(SliderLayout.PresetIndicators.Center_Bottom);
         mDemoSlider.setCustomAnimation(new DescriptionAnimation());
         mDemoSlider.setDuration(4000);
-        
         
