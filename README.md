@@ -8,7 +8,7 @@ You can easily load images from an internet URL, drawable, or file. And there ar
 
 ## Step-1:Add gradle dependencies
 
-dependencies {
+   dependencies {
 
     implementation "com.android.support:support-v4:+"
     
@@ -18,13 +18,13 @@ dependencies {
     
     implementation 'com.daimajia.slider:library:1.1.5@aar'
     
-}
+   }
 
 # Step-2 Add the Slider to your layout:
 
  
 
-<com.daimajia.slider.library.SliderLayout
+    <com.daimajia.slider.library.SliderLayout
 
         android:id="@+id/slider"
         
@@ -32,7 +32,7 @@ dependencies {
         
         android:layout_height="200dp"
         
-/>
+     />
 
 # Step-3 Write Correspondin Java code in Activity class
 
